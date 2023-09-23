@@ -1,1 +1,9 @@
 /*  your css code here. If applicable */
+td,th{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+tbody>tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
